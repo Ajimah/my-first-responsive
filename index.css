@@ -1,0 +1,59 @@
+body{
+    background-color: #19193a;
+}
+.main{
+    margin: auto;
+    width: 50%;
+    height: 20%;
+    display: flex;
+    margin-top: 10%;
+    gap: 50px;
+    background-color: darkcyan;
+    padding: 30 30px;
+}
+em{
+    color: chocolate;
+
+}
+h1{
+    color: antiquewhite;
+}
+p{
+    color: lightgray;
+    font-size: medium;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 20px;
+    
+}
+.sub2{
+    display: flex;
+   justify-content: space-between;
+   padding-right: 20px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .main{
+       
+        width: 50%;
+        height: 50%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0px 30px ;
+     
+      
+}
+@media only screen and (max-width: 1800px) {
+    .main{
+       
+        width: 50%;
+        height: 50%;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        
+      
+}
+.tech{
+    width: 50vw;
+}
